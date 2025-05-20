@@ -1,0 +1,29 @@
+{
+  "name": "ctm-untility",
+  "version": "1.0.0",
+  "description": "ctm-untility package using s3 and mongodb",
+  "main": "ctm-library/index.js",
+  "types": "ctm-library/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "s3",
+    "mongodb",
+    "base"
+  ],
+  "author": "CmTLibrary",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "bytenode": "^1.5.7",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "bytenode": "^1.5.7"
+  }
+}
