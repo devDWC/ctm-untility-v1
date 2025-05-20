@@ -7,10 +7,6 @@
   "files": [
     "lib"
   ],
-  "scripts": {
-    "build": "node build.js",
-    "prepare": "npm run build"
-  },
   "keywords": [
     "s3",
     "mongodb",
