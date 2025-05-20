@@ -2,8 +2,8 @@
   "name": "ctm-untility",
   "version": "1.0.0",
   "description": "ctm-untility package using s3 and mongodb",
-  "main": "ctm-library/index.js",
-  "types": "ctm-library/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
