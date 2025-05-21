@@ -6,17 +6,24 @@ export const s3Untility: {
     accessKeyId: string;
     secretAccessKey: string;
   }) => any;
-
+  uploadSingleFileAsync: (
+    files: any[],
+    folderPath: string,
+    organization: string,
+    aspectRatio?:string
+  ) => Promise<any>;
   uploadMultipleFilesAsync: (
     files: any[],
     folderPath: string,
-    organization: string
+    organization: string,
+    aspectRatio?:string
   ) => Promise<any>;
 
   uploadFilesJoinInFolderAsync: (
     files: any[],
     folderPath: string,
-    organization: string
+    organization: string,
+    aspectRatio?:string
   ) => Promise<any>;
 
   deleteFolderAsync: (
