@@ -1,5 +1,5 @@
 {
-  "name": "ctm-untility",
+  "name": "ctm-utility",
   "version": "1.0.0",
   "description": "ctm-untility package using s3 and mongodb",
   "main": "lib/index.js",
