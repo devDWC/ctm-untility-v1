@@ -1,6 +1,6 @@
 // ctm-library/index.d.ts
-export const s3Untility: {
-  initS3Client: (config: {
+export const s3Utility: {
+  s3Init: (config: {
     endpoint: string;
     region?: string;
     accessKeyId: string;
